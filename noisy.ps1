@@ -3,7 +3,7 @@
 # Download Sound (When using your own link "dl=0" needs to be changed to "dl=1")
 # This is for if you want to host your own instance of this script
 
-$fGSG = "https://www.dropbox.com/scl/fi/4j65ilsya74g6tkmfmqcz/WetFart.wav?rlkey=v0bfp8o4d1rmz7ni0hvm8zs5h&st=jcbn848a&dl=1"
+$fGSG = "https://github.com/CptCap/pstest/raw/main/WetFart.wav"
 
 iwr $fGSG -O $env:TMP\e.wav
 
